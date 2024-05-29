@@ -1,0 +1,124 @@
+
+#login{
+    height: 40px;
+    width: 120px;
+    border-radius: 150px;
+    outline: 0;
+    border: 0;
+    background-color: rgb(84, 6, 181);  
+position: absolute; /* Absolute positioning */
+top: 10px;          /* Distance from the top */
+right: 10px;        /* Distance from the right */
+padding: 10px 20px; /* Button padding */
+color: white;       /* Text color */
+cursor: pointer;    /* Pointer cursor on hover */
+font-size: large;
+font-family: 'Times New Roman', Times, serif;
+}
+.search {
+    display: flex;
+    align-items: center; /* Align items vertically */
+    position: absolute;  /* Absolute positioning */
+    top: 120px;           /* Distance from the top */
+    right: 10px;         /* Distance from the right */
+    width: auto;         /* Auto width based on content */
+}
+
+.search input {
+    border: 0;
+    outline: 0;
+    background: #eef0ef;
+    color: #555;
+    padding: 10px 25px;
+    height: 20px;
+    border-radius: 30px;
+    font-size: 18px;
+    margin-right: 16px; /* Space between input and button */
+}
+
+.search button {
+    border: 0;
+    outline: 0;
+    background: #eef0ef;
+    color: #555;
+    height: 45px;
+    width: 45px;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+.search button img {
+    width: 18px;
+}
+
+.header{
+    background-color: #e2e2e2;
+    padding: 60px;
+}
+#logoimg{
+    border-radius: 50%;
+    display: flex;
+    align-items: center; /* Align items vertically */
+    position: absolute;  /* Absolute positioning */
+    top: 250px;           /* Distance from the top */
+    right: 10px;         /* Distance from the right */
+    width: auto;
+}
+.header h1{
+    font-size: 100px;
+    margin-left: 40px;
+    line-height: 0.9; /* Adjust this value to decrease line spacing */
+}
+.virtually{
+    color: rgb(244, 36, 168);
+    font-size: 100px;
+    margin-left: 40px;
+}
+.header2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically */
+    height: 700px; /* Fixed height */
+    text-align: center; /* Center the heading text */
+}
+.header2 img {
+    max-width: 900px; /* Adjust this value as needed */
+    height: 400px;
+}
+#about{
+    padding: 50px;
+    background-color: #d8d7d8;
+}
+.aboutus{
+    background-color: #ffffff;
+    width: 400px;
+}
+.aboutus h1{
+    padding: 30px;
+    font-size: 80px;
+    color: rgb(244, 36, 168);
+     margin: 0; /* Remove default margins */
+     line-height: 0.7; /* Adjust the line height if necessary */
+}
+#about {
+    display: flex; /* Enable flexbox on the container */
+    align-items: flex-start; /* Align items at the top */
+}
+.aboutus {
+    margin-right: 200px; /* Optional: add some space between the divs */
+}
+.aboutus h1 {
+    margin: 0; /* Remove default margins */
+    line-height: 1; /* Adjust line height if necessary */
+}
+.aboutext{
+    font-size: 25px;
+}
+#contact{
+    height: 600px;
+    background-color: rgb(135, 2, 75);
+    padding: 5px;
+}
+
+
